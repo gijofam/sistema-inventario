@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "supplier")
+@Table(name = "suppliers")
 public class SupplierJpaEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
