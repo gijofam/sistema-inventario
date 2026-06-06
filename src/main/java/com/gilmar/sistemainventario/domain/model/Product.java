@@ -2,7 +2,7 @@ package com.gilmar.sistemainventario.domain.model;
 
 public class Product {
 
-    private final Long id;
+    private Long id;
     private String name;
     private Category category;
     private Supplier supplier;
